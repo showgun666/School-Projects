@@ -1,0 +1,62 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="gradient">
+            <div class="hero-container">
+                <img 
+                    class="hero-img"
+                    src="{{ base_url }}/image/audience.jpg"
+                    srcset="
+                        {{ base_url }}/image/audience.jpg&q=60&w=1000&h=400&crop-to-fit&save-as=jpg 1000w,
+                        {{ base_url }}/image/audience.jpg&q=60&w=700&h=200&crop-to-fit&save-as=jpg 700w"
+                    sizes="
+                        (max-width: 767px) 700px,
+                        (max-width: 1800px) 1000px,
+                        1280px"
+                    alt="Wide image of an audience in front of a stage"
+                >
+            </div>
+        </div>
+        <div class="background-container">
+            <img 
+                class="background-image opacity"
+                src="{{ base_url }}/image/horse.jpg&q=60"
+                srcset="
+                    {{ base_url }}/image/horse.jpg&q=60&w=1000&h=800&crop-to-fit&save-as=jpg 1000w,
+                    {{ base_url }}/image/horse.jpg&q=60&w=300&h=800&crop-to-fit&save-as=jpg 300w"
+                sizes="
+                    (max-width: 767px) 300px,
+                    (max-width: 1800px) 1000px,
+                    1280px
+                    "
+                alt="Background image of a white horse in an American desert"
+            >
+            <div class="content">
+                {{ content }}
+            </div>
+            <img 
+                class="side-image"
+                src="{{ base_url }}/image/woman-wall.jpg&q=60"
+                srcset="
+                    {{ base_url }}/image/woman-wall.jpg 300w,
+                    {{ base_url }}/image/woman-wall.jpg 250w,
+                    {{ base_url }}/image/woman-wall.jpg 512w"
+                sizes="
+                    (max-width: 400px) 300px,
+                    (max-width: 767px) 512px,
+                    (max-width: 1000px) 250px,
+                    (max-width: 1400px) 300px,
+                    853px"
+                alt="Image of Scarlett Hayes leaning against a wall with a guitar"
+            >
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
+

@@ -1,0 +1,100 @@
+Först så tittade jag på vad jag ville göra för hemsida.
+
+Jag hade tidigare gått igenom sidor för nyheter, musikartister och för bildstorage. 
+
+Jag tänker därför att jag tar mig an uppgiften för att skapa en sida för en konstnär/artist.
+
+För mig så tänker jag att jag gör en helt ny sida från grunden då jag har så mycket "skräp" från kmom01-06 i min portfolio så jag tycker det blir bättre så.
+
+För att hitta inspiration så gick jag ut på en sida med gratis stock foton och hittade några foton på en tjej med gitarr som ger country-känsla, så jag gick på det och sökte lite mer efter countryfoton och hittade lite schyssta bilder att använda på sidan.
+
+Jag har inte så bra koll på geografi, natur och så vidare så jag plockade lite på känsla det som verkade bra.
+
+Därefter började jag plocka färger från bilderna jag gillade och försökte passa ihop ett färgschema till hemsidan och kom fram till ett färgschema med Triadschema från en grön färg jag fann i gräset, #44541D #5872A1 #87A149 #A14738 #542922. Jag gillade den för att många färger i fotot dök upp i färgschemat, t.ex. den röda i kläderna hon bar samt blå i himlen. Sedan så skapade jag ett till färgschema som jag baserade på en färg i himlen vilket gav vackra pastellfärger i ett komplementfärgtema som jag gillade #EBC6AB #9E816C #63799D #EBDD7C #9E965C .
+Jag skapade därför två olika färgteman för att experimentera och se vad jag gillade, men min image av vad amerikansk country är lutar mer åt öken och så så jag bestämde mig för att skrota de gröna färgerna och gå mer åt pastellfärgerna som även innehåll en rosa som jag tänker kan se snygg ut i accenter eller så.
+Sedan letade jag efter texturer som kunde nyttjas och hittade ett träplank som jag tänkte jag kan använda. Sedan så ville jag ha publikbilder för lite scenaktivitet och tours så jag sökte reda på det också. Jag letade också efter bilder på amerikansk natur för att kanske fånga lite sådan känsla, cowboys och cowgirls, ranching osv. För att få lite rörelse så letade jag efter bilder på hästar och hittade en cool bild på en vit häst i rörelse som kändes lite vilda västern.
+
+Det var svårt att hitta bilder som passade helt men jag tyckte att jag fick ett bra jobb med tanke på att det är gratisbilder allting.
+
+Sedan så hittade jag på ett namn för artisten, Scarlett Hayes, och började jobba på en logotyp för artisten. Jag skapade även en svg ikon som jag tänkte jag kan använda som favicon.
+
+Jag gilalr att arbeta uppifrån och ned, så jag började med header och navbar. Jag ville ha loggan centrerad i mitten med navbaren under som en avgränsare mellan headern och resten av sidan.
+Jag använde flex för att få till det och när sidan går in i mobilläge så flyttar jag upp hamburgarnavbaren.
+
+Därefter ville jag få till innehållet på sidan så jag använder audience-bilden som en sorts hero image. Under det så ville jag få in hästen som en bakgrundsbild men förstod inte riktigt hur jag skulle göra det med cimage osv så jag gjorde helt enkelt så att jag lade in den som en bild och sedan flyttade andra element till ovanpå den.
+Hästen trubbade jag av något med ett opacitetsfilter
+Jag ville få in ett foto på artisten också så jag satte in henne med en ram runt bilden med runda kanter för att mjuka av det lite.
+
+
+
+HÄRNÄST
+
+På about-sidan skall det finnas en länk till en dold sida (Tips, använd hidden: true i meta för att dölja den ifrån navigeringen) som innehåller (ca 250+ ord):
+
+Dokumentera färgpaletten och berätta hur du valde färgerna.
+Beskriv typografin, designprinciper och designelement som du använt.
+Berätta vilken känsla som kunden vill uppnå med webbplatsen.
+Beskriv hur du valt att dela upp din SASS-kod.
+
+Responsivitet
+Tillgänglighet (Lighthouse)
+
+Analys av denna sida
+
+Berätta i din redovisningstext hur du har åstadkommit två nedanstående krav och vilka delar du har valt att fokusera på inom responsivitet och tillgänglighet.
+
+Responsivitet
+Sidan skall använda CSS-grid och/eller flexbox för att presentera innehållet på ett främjande sätt.
+
+Sidan skall fungera väl på mobila enheter, dvs inga horisontella scrollbars.
+
+Bilder ska anpassas efter enhet med hjälp utav cimage och <picture>/srcset (gäller inte .svg).
+
+Tillgänglighet
+Samtliga sidor på sidan skall ha 100 i “accessibility” enligt Lighthouse (via devtools).
+
+För varje krav du implementerat, dvs 1-6, skriver du ett textstycke om ca 5-10 meningar där du beskriver vad du gjort och hur du tänkt. 
+Inled varje stycke med en rubrik med krav 1-6. Poängsättningen tar sin start i din text så se till att skriva väl för att undvika poängavdrag. 
+Missar du att skriva/dokumentera din lösning så blir det 0 poäng. Du kan inte komplettera en inlämning för att få högre betyg.
+
+Skriv ett allmänt stycke om hur projektet gick att genomföra. Problem/lösningar/strul/enkelt/svårt/snabbt/lång tid, etc. 
+Var projektet lätt eller svårt? Tog det lång tid? Vad var svårt och vad gick lätt? Var det ett bra och rimligt projekt för denna kursen?
+
+Avsluta med ett sista stycke med dina tankar om kursen och vad du anser om materialet och handledningen (ca 5-10 meningar). 
+Ge feedback till lärarna och förslå eventuella förbättringsförslag till kommande kurstillfällen. Är du nöjd/missnöjd? 
+Kommer du att rekommendera kursen till dina vänner/kollegor? På en skala 1-10, vilket betyg ger du kursen?
+
+
+1 webbplats
+Jag valde att göra en ny hemsida kopierad från example då jag hade så mycket gammalt skräp och så från portfolion, och jag ville pröva att göra något helt själv från början. jag började med att bestämma mig för att jag ville göra en artistsida då jag hade precis i kmom06 arbetat med att analysera tre artistsidor så det passade mig bra. Sedan så började jag leta efter gratisfoton att använda för att få ihop sidan. Jag hittade biler på en cowgirl med gitarr så jag bestämde mig för countryartist och började därefter leta efter coola bilder att ha med. Jag tänkte mycket på designprinciplerna vi lärt oss om och valde lite olika bilder inom samma tema som innehöll olika principler som jag ville ha med. Jag hittade öppehet och linjer, slumpmässighet och rörelse och mycket mer. Hästfotot gillar jag för rörelse och energi. Publikfotot har som ett fiskögefokus nästan så att det blir som linjer som fokuserar mot mitten och likaså landsvägen har linjer som följer i mitten. Jag visste att jag ville ha något form av plank så jag letade reda på en schuysst träplänk att ha som bakgrund och medan jag samlade bilder så satt jag och planerade hur och var jag kunde använda dem.
+När jag gjorde analysen på artistsidorna så använde samtliga en publikbild som herobild, så jag gjorde samma sak. Tyvärr så hade jag inte en bild på artisten på scenen, men för ett fantasyprojekt så får man ta vad man har. Jag har olika herobilder på aboutsidan. Där ville jag fokusera på lite mer om artisten och mer mjuka värden istället för action på förstasidan. Lite att man kan komma närmre artisten och så. På highlights så ville jag att innehållet skulle tala för sig och jag tog bara spotifyembeds till svenska björnstammens country-album på samtliga för att visa vad det går ut på. Jag hade kunnat ta olika album men jag kände att det inte hade någon större poäng när alla andra länkar som går från sidan inte går någonstans ändå osv. Anledningen till att jag tog spotify embeds var för att det är så det såg ut på alla artistsidorna jag analyserade i kmom06. Allt ligger i ett grid fint uppordnat så om kunden skulle önska lägga in bilder eller videos eller vad som helst så går det att byta ut innehållet i griden mot annat. Strukturen finns där.
+Logotypen och faviconen skapade jag på hemsidor där man kan skapa sånt. Faviconen är svg, så det är tufft. Jag lyckades inte få till exakt samma bakgrundsfärg på loggan som på bakgrunden på hemsidan så som jag ville, så jag tog den så nära som möjligt fast ljusare vilekt fick en effekt av 3d att loggan sticker ut lite grann vilket blev coolt så jag valde den designen.
+Jag arbetade ovanifrån och ned när jag skapade hemsidan, först header, sedan navbar, sedan content, sedan footer. Jag tycker det arbetssättet fungerade väl men jag önskar jag hade jobbat med responsivitet från början då jag fick problem med det senare. Halva tiden jag lade på hemsidan lade jag på responsiviteten.
+
+Jag har försökt att använda cimage för att få rätt bilder men har fått oerhört varierande resultat. Det funkar inte alls i min mobil verkar det som, det funkar ibland på datorn och jag vet inte när eller varför det funkar, bilderna syns som de ska i source när jag tittar men de visas inte upp enligt hur jag hade hoppats, men sen när jag kör sidan i lighthouse så får jag bilder i rapporten som visar hur sidan ser ut och då helt plötsligt verkar det funka så jag har ingen aning om vad problemet är men om det funkar på kundens dator så antar jag att det är lugnt...???
+
+2 tema
+Som jag beskrivit i about about så har jag valt att bryta upp sassfilerna i flera moduler som jag samlar genom att importera till style.scss. style.scss är annars tom och allt mojs som inte fick en egen modul som har ett tema eller så att bo i hamnade i base.scss som blev min slaskmodul.
+Jag använder variabler för typografi och färger samt för att få in olika avstånd osv.
+Jag har försökt att arbeta med designprinciplerna i åtanke och som jag skrivit på andra platser så har jag arbetat med former, färger, transparens, linjer, djup med mera. Jag är särskilt nöjd med hur jag lade navbaren som kommer ut ur hamburgarmenyn över loggan med en skugga. Det ser ut som på "en riktig" hemsida tyckte jag.
+Det var mycket experimenterande, jag har lagt bilder på bakgrunder och satt opacitetsfilter på bilderna för att få fram färgen bakom. Jag ville sätta bilderna som bakgrundsbilder men visste från början inte hur jag skulle få till det på ett snyggt sätt med cimage och css så då blev det så här det blev.
+Från början så hade jag ett färgschema till som var ett triadschema, #44541D #5872A1 #87A149 #A14738 #542922, som jag började jobba med lite grann men när jag hittade nästa färgschema så blev jag genast mycket förtjust i det och skrotade helt det gamla. Tanken var väl att om jag skulle göra ett till tema så hade jag använt de gamla färgerna men nu blev det inte så.
+
+3 Responsivitet och Tillgänglighet
+Responsivitetsbiten och cimage fick vänta lite när jag arbetade med sidan. Jag fick inte cimage att funka, trots att jag använde behörighetskommando osv så jag arbetade lokalt direkt ur assets/img från början tills allt var på plats och därefter började jag tillämpa cimage och srcset.
+Sidan använder både flex och grid på olika ställen och ibland flex inuti gridboxar. Alla bilder använder nu cimage för att visas upp och jag har använt lite omvandlingar för att minska storleken. Loggan är grafisk design men är sparad som jpg för att när jag sparade som png så blev filstorleken typ 4-5 gånger så stor. Fråga mig inte varför, men jag har kollat och jpg var det datasnålaste formatet.
+Tillgänglighet har jag egentligen inte jobbat nå särskilt med. Jag hade 100 på alla sidor i tillgänglighet första gången jag körde bortsett från highlightsidan där jag hade glömt titel på mina embeds. Jag har väl bara försökt att följa det jag lärt mig och ha tydliga distinkta färger och beskrivningar på alla element som kan ha beskrivningar.
+Bortsett från när nav:hover blir vit mot ljus rosa så fungerar färgschemat bra, men jag tror inte det var nå större problem då enda gången man har svårt att se texten är när man redan hittat den. Kanske lite väl märkligt dock att elementet man vill klicka på försvinner när man håller muspekaren över den, men om jag byter till en annan mörk färg så blir det knappt någon skillnad åt det hållet. En sak jag kunde göra var att ha en bakgrundsfärg som byts vid :hover men jag och kunden snackade om det och det såg inte tillräckligt stilrent ut så vi gjorde såhär.
+
+6
+Jag bestämde mig för att jag inte hade gett mig själv tillräckligt med tid för att uppfylla alla 6 delmoment så jag valde att analysera min egen sida då jag tyckte det kändes som den mest värdefulla egenskapen att ha. Att kunna kritiskt granska mitt egna verk från ett så objektivt perspektiv som möjligt och hitta förbättringspotential.
+Det blev väl rätt regelrätt en analys på samma vis som tidigare moment men det var roligt att göra det på mitt egna arbete. Jag hittade såklart en hel del förbättringspotential och det skulle kännas kul att komma tillbaka till den här hemsidan i framtiden och titta tillbaka på vad jag gjort. Jag tror att om jag hade gett mig en vecka eller så mellan publish och analys så hade jag kunnat komma med en lite bättre analys skulle jag tro. 
+
+Hur gick det
+Jag tycker att projektet gick bra. Det är helt otroligt hur man kan ta typ 9 månader på sig att göra en 3 månaderskurs och ändå inte börja med slutprojektet förrän två dagar innan absolut sista deadline men det gick(hoppas jag). Som beskrivet ovan så hade jag problem med cimage på min burk och fick därför vänta mycket på att publisha för att testa på studentservern om saker funka osv, sedan så hade jag en hel del problem med att får srcset att funka som det skulle. Webläsaren laddar in rätt filstorlekar när vyn är si och så stor, men bilden på webbsidan byts inte ut på min dator, så det var väldigt struligt. Jag hittade aldrig någon lösning, men eftersom lighthouse screenshot rapporterna visar rätt bilder för mobilvy så antar jag att det är ett lokalt problem här. Ett lite omvänt "it works on my device".
+Jag hade också en del struligheter med att få hemsidan responsiv efter att jag byggt hela utan responsivitet så jag lade säkert 4-5 timmar på att göra det viklet är ungefär hälften av all tid jag lade på hemsidan. Jag tycker att projektet var fantastiskt kul och nu i efterhand så känns det som att jag hade gärna spenderat ca 4 timmar om dagen i tre veckor med att arbeta med sidan sitället för att sporadiskt arbeta över två dagar. Jag är inte nöjd med min insats, jag borde ha lagt mer tid och jag har varit ganska hård mot mig själv med det, men jag har ändå haft väldigt roligt med projektet och det har varit väldigt lärorikt. Jag har fått mersmak för det här och känner att jag har det i mig att jobba med design och att jag kan göra hemsidor så det är kul. Detta var min andra hemsida i mitt liv som jag gjort(på egen hand dvs) och jag tycker att jag gjort ett bra jobb med tanke på omständigheterna som jag orsakade för mig själv. Bra slutprojekt för kursen. Rolig kurs.
+
+Tankar om kursen och materialet
+Jag tycker att det har varit väldigt förvirrande med twig, scss, cimg, picture osv. Kursen var väldigt framtung eller hur man nu ska säga, att det var väldigt mycket nytt att ta in i början och jag tappade suget när jag kände att jag bara följde instruktioner till punkt och pricka för att installera miljöerna och allting utan att ha en aning om vad jag gjorde eller hur saker höll ihop. Även fast det fanns mång förklaringar så var det helt enkelt för mycket och för överväldigande för mig och jag behövde ta mer tid på mig för att smälta allt. Allteftersom jag jobbade vidare med kursen så började jag förstå mer och mer så det blev ju bra tillslut ändå. Jag vet inte hur man kan arbeta med kursen för att göra den mer begriplig i början men det var något jag hade svårt med iaf.
+Videoinspelningarna som inte var från föreläsningssalen hade många gånger dålig ljudkvalitet eller ljudvolym så det var svårt att ta till sig informationen, så jag önskar att högskolan köper ny och bättre utrustning till sina lärare.
+Jag är nöjd med kursen och sätter väl en 8a för att kursen gör allt jag förväntade mig att den skulle göra och ändå lite mer, men det finns utvecklingspotential och jag tycker att det var svårt att följa början av kursen. kmom01 var snurrigt, installera allt var riktigt snurrigt och kmom02 var jättesnurrigt. Jag föll av vid kmom03 för jag kände att jag inte visste vad jag höll på med. Det är säkert ett "skit bakom spakarna"-problem hos undertecknad men det var bra kurs, lärarteamet har varit bra i alla kurser och hjälp har jag alltid fått när jag väl bett om det.

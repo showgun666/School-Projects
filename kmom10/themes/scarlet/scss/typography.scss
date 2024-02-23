@@ -1,0 +1,74 @@
+/* Typografy */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rokkitt&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+    font-family: 'Rokkitt', serif;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: $line-height;
+    color: $font-color;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    padding-left: $margin;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.fab {
+    font-size: 1.4em;
+}
+
+.fa-bars,
+.fa-times {
+    font-size: $font-size-large;
+}
+
+@media (max-width: $mobile-width) {
+    html {
+        font-size: $font-size * 1.125;
+    }
+}
+
+@media (max-width: $mobile-width-small) {
+    html {
+        font-size: $font-size-small;
+    }
+}

@@ -1,0 +1,84 @@
+
+.footer {
+    background-color: $background-color-dim;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-template-rows: 80px auto;
+    border-top: $border solid $accent-color;
+}
+
+.footer a {
+    color: $font-color;
+    text-decoration: none;
+}
+
+.footer .social {
+    grid-column: 5 / 7;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer .social a {
+    color: $font-color;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.footer .social a:hover {
+    color: $font-alternative-color;
+}
+
+.copyright {
+    width: 100%;
+    grid-column: 5 / 7;
+    grid-row: 2 / 3;
+}
+
+.copyright p {
+    text-align: center;
+    margin: auto;
+}
+
+.formal-left {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    margin: auto;
+}
+
+.formal-right {
+    grid-column: 7 / 11;
+    grid-row: 1 / 2;
+    margin: auto;
+}
+
+.formal-left p,
+.formal-right p {
+    text-align: center;
+}
+
+@media (max-width: $mobile-width) {
+    .formal-left {
+        grid-column: 2 / 10;
+        grid-row: 3 / 4;
+    }
+
+    .formal-right {
+        grid-column: 2 / 10;
+        grid-row: 2 / 3;
+    }
+
+    .copyright {
+        grid-column: 2 / 10;
+        grid-row: 4 / 5;
+    }
+
+    .footer .social {
+        grid-column: 2 / 10;
+        grid-row: 1 / 2;
+        margin-top: $margin;
+        margin-bottom: $margin;
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass scarlet/scss/style.scss scarlet/css/style.css --no-source-map",
+    "style-min": "sass scarlet/scss/style.scss scarlet/css/style.min.css --no-source-map --style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.63.3",
+    "stylelint": "^15.7.0",
+    "stylelint-config-sass-guidelines": "^10.0.0"
+  }
+}

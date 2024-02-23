@@ -1,0 +1,18 @@
+
+.header,
+.site-header {
+    background-color: $background-alternative-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: $mobile-width) {
+    .site-header {
+        flex-direction: row;
+        align-items: normal;
+        width: 100%;
+        justify-content: center;
+    }
+}
